@@ -1,0 +1,85 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+    background: rgba(180, 240, 248, 0.712);
+    
+    text-align: right;
+}
+
+nav a {
+    padding: 20px;
+    text-decoration: none;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    
+}
+nav > a:hover {
+    background-color: rgb(138, 231, 223);
+    color: black;
+}
+
+body main {
+    background-image: url(imagens/pexels-amy-orsini-10892369.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 100px;    
+}
+
+
+main div {
+
+    color: aliceblue;
+    display: inline
+    
+}
+main h1 {
+    padding: 40px;
+    text-align: center
+    
+}
+main div h2 {
+    padding: 40px;
+    text-align: center;
+    
+}
+
+main div p {
+padding: 40px;
+text-align: center;
+
+}
+
+.box {
+ position: relative;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50% -50%); 
+ padding: 20px;
+ border-radius: 15px;
+ width: 50%;
+ display: contents;
+ font-size: 20px;
+ 
+ 
+}
+
+
+fieldset {
+    padding: 30px;
+    border-radius: 9px;
+}
+
+footer {
+    padding: 30px;
+    background-color: rgb(186, 240, 240);
+    text-align: end;
+}
